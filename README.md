@@ -30,6 +30,13 @@ Steps Followed
 
 
 Dashboards Created
+
+1.Monthly View
+2.Consolidated View
+3.Patient Details
+4.Key Takeaways
+
+
 1. Monthly View
 Objective: Track ER activity month-by-month to identify patterns and gaps.
 
@@ -114,7 +121,13 @@ Admission Split: 4,612 admitted vs 4,604 not admitted
 Example DAX Measures
 
 Total Patients = COUNT(Patients[Patient ID])
+
 Average Wait Time = AVERAGE(Patients[Wait Time])
+
 Average Satisfaction = AVERAGE(Patients[Satisfaction Score])
+
 Referral Count = COUNT(Patients[Department Referral])
+
+
+Portfolio: https://amithgowda.netlify.app/
 
